@@ -22,7 +22,7 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JAVA" value="1" />
-          <entry key="PLAIN_TEXT" value="9" />
+          <entry key="PLAIN_TEXT" value="33" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.spring.boot.run.usages" />
@@ -35,7 +35,7 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="java" value="1" />
-          <entry key="txt" value="9" />
+          <entry key="txt" value="33" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -166,7 +166,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1536910331452" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1536910397621" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
@@ -297,7 +297,7 @@
       <option name="presentableId" value="Default" />
       <updated>1536828633197</updated>
       <workItem from="1536828634792" duration="5036000" />
-      <workItem from="1536901666184" duration="1075000" />
+      <workItem from="1536901666184" duration="1307000" />
     </task>
     <task id="LOCAL-00001" summary="- init">
       <created>1536899351092</created>
@@ -327,15 +327,35 @@
       <option name="project" value="LOCAL" />
       <updated>1536900998056</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="N/A">
+      <created>1536910209596</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1536910209596</updated>
+    </task>
+    <task id="LOCAL-00006" summary="add gitignore file">
+      <created>1536910354105</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1536910354105</updated>
+    </task>
+    <task id="LOCAL-00007" summary="N/A">
+      <created>1536910374562</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1536910374562</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6111000" />
+    <option name="totallyTimeSpent" value="6343000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1066" extended-state="7" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
     <layout>
       <window_info id="Web" order="0" side_tool="true" />
       <window_info id="Capture Tool" order="1" />
@@ -351,12 +371,12 @@
       <window_info anchor="bottom" id="Java Enterprise" order="3" weight="0.32900432" />
       <window_info anchor="bottom" id="Build" order="4" sideWeight="0.4914712" weight="0.34159482" />
       <window_info anchor="bottom" id="Spring" order="5" weight="0.46320346" />
-      <window_info anchor="bottom" id="Event Log" order="6" sideWeight="0.33848614" side_tool="true" weight="0.38577586" />
+      <window_info anchor="bottom" id="Event Log" order="6" sideWeight="0.33901918" side_tool="true" weight="0.38685346" />
       <window_info anchor="bottom" id="Application Servers" order="7" weight="0.24350649" />
       <window_info anchor="bottom" x="1931" y="94" width="1795" height="979" id="Debug" order="8" type="WINDOWED" weight="0.5039909" />
       <window_info active="true" anchor="bottom" x="1932" y="182" width="1577" height="890" id="Run" order="9" sideWeight="0.69288605" visible="true" weight="0.35237068" />
       <window_info anchor="bottom" id="Find" order="10" weight="0.40367964" />
-      <window_info active="true" anchor="bottom" x="22" y="346" width="1876" height="358" id="Version Control" order="11" sideWeight="0.66151386" visible="true" weight="0.38685346" />
+      <window_info active="true" anchor="bottom" x="22" y="346" width="1876" height="358" id="Version Control" order="11" sideWeight="0.6609808" visible="true" weight="0.38685346" />
       <window_info anchor="bottom" id="Inspection Results" order="12" sideWeight="0.4978678" weight="0.5093716" />
       <window_info active="true" anchor="bottom" id="SVN Properties" order="13" visible="true" weight="0.3296582" />
       <window_info anchor="bottom" id="TODO" order="14" sideWeight="0.49253732" weight="0.2759009" />
@@ -416,6 +436,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="- init" />
+    <MESSAGE value="add gitignore file" />
     <MESSAGE value="N/A" />
     <option name="LAST_COMMIT_MESSAGE" value="N/A" />
   </component>
