@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6de84fba-ea63-47f6-9e1b-49bfecf78e55" name="Default Changelist" comment="- init" />
+    <list default="true" id="6de84fba-ea63-47f6-9e1b-49bfecf78e55" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,13 +15,14 @@
       <usages-collector id="statistics.lifecycle.project">
         <counts>
           <entry key="project.open.time.0" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.open.time.17" value="1" />
+          <entry key="project.opened" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JAVA" value="1" />
-          <entry key="PLAIN_TEXT" value="6" />
+          <entry key="PLAIN_TEXT" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.spring.boot.run.usages" />
@@ -32,7 +35,7 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="java" value="1" />
-          <entry key="txt" value="6" />
+          <entry key="txt" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -45,12 +48,12 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/kywpcm/main/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="52">
-              <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+            <state relative-caret-position="104">
+              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
             </state>
           </provider>
         </entry>
@@ -129,10 +132,10 @@
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
+      <autoscrollFromSource ProjectPane="true" />
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
@@ -157,12 +160,13 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1536900750231" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1536901026961" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
@@ -292,7 +296,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1536828633197</updated>
-      <workItem from="1536828634792" duration="4760000" />
+      <workItem from="1536828634792" duration="5036000" />
+      <workItem from="1536901666184" duration="1075000" />
     </task>
     <task id="LOCAL-00001" summary="- init">
       <created>1536899351092</created>
@@ -315,21 +320,29 @@
       <option name="project" value="LOCAL" />
       <updated>1536900484183</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="N/A">
+      <created>1536900998056</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1536900998056</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4760000" />
+    <option name="totallyTimeSpent" value="6111000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1066" extended-state="7" />
+    <editor active="true" />
     <layout>
       <window_info id="Web" order="0" side_tool="true" />
       <window_info id="Capture Tool" order="1" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
       <window_info id="Learn" order="4" show_stripe_button="false" weight="0.32942432" />
-      <window_info content_ui="combo" id="Project" order="5" sideWeight="0.48636365" visible="true" weight="0.20149253" />
+      <window_info content_ui="combo" id="Project" order="5" sideWeight="0.48636365" visible="true" weight="0.20362474" />
       <window_info id="Image Layers" order="6" />
       <window_info content_ui="combo" id="Hierarchy" order="7" weight="0.22068231" />
       <window_info anchor="bottom" id="Database Changes" order="0" show_stripe_button="false" />
@@ -343,7 +356,7 @@
       <window_info anchor="bottom" x="1931" y="94" width="1795" height="979" id="Debug" order="8" type="WINDOWED" weight="0.5039909" />
       <window_info active="true" anchor="bottom" x="1932" y="182" width="1577" height="890" id="Run" order="9" sideWeight="0.69288605" visible="true" weight="0.35237068" />
       <window_info anchor="bottom" id="Find" order="10" weight="0.40367964" />
-      <window_info active="true" anchor="bottom" x="22" y="346" width="1876" height="358" id="Version Control" order="11" sideWeight="0.66151386" visible="true" weight="0.38577586" />
+      <window_info active="true" anchor="bottom" x="22" y="346" width="1876" height="358" id="Version Control" order="11" sideWeight="0.66151386" visible="true" weight="0.38685346" />
       <window_info anchor="bottom" id="Inspection Results" order="12" sideWeight="0.4978678" weight="0.5093716" />
       <window_info active="true" anchor="bottom" id="SVN Properties" order="13" visible="true" weight="0.3296582" />
       <window_info anchor="bottom" id="TODO" order="14" sideWeight="0.49253732" weight="0.2759009" />
@@ -403,13 +416,14 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="- init" />
-    <option name="LAST_COMMIT_MESSAGE" value="- init" />
+    <MESSAGE value="N/A" />
+    <option name="LAST_COMMIT_MESSAGE" value="N/A" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/com/kywpcm/main/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="52">
-          <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+        <state relative-caret-position="104">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
         </state>
       </provider>
     </entry>
