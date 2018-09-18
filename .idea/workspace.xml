@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6de84fba-ea63-47f6-9e1b-49bfecf78e55" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -67,28 +67,32 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
+          <entry key="java" value="3" />
           <entry key="md" value="6" />
+          <entry key="txt" value="27" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
+          <entry key="JAVA" value="3" />
           <entry key="Markdown" value="6" />
+          <entry key="PLAIN_TEXT" value="27" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/kywpcm/main/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="104">
-              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+            <state relative-caret-position="52">
+              <caret line="2" column="19" lean-forward="true" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
@@ -122,8 +126,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/kywpcm/main/Main.java" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/src/com/kywpcm/main/Main.java" />
       </list>
     </option>
   </component>
@@ -203,16 +207,31 @@
       </pane>
       <pane id="AndroidView" />
       <pane id="Scope" />
-      <pane id="PackagesPane" />
+      <pane id="PackagesPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="yw-algorithm-solve" type="58d84e3e:PackageViewProjectNode" />
+              <item name="yw-algorithm-project" type="616d4139:PackageViewModuleNode" />
+            </path>
+            <path>
+              <item name="yw-algorithm-solve" type="58d84e3e:PackageViewProjectNode" />
+              <item name="yw-algorithm-project" type="616d4139:PackageViewModuleNode" />
+              <item name="com.kywpcm.main" type="1f31426a:PackageElementNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1536910397621" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537249109918" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.applicationServers" />
@@ -244,6 +263,53 @@
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <module name="yw-algorithm-solve" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
+      <module name="yw-algorithm-solve" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -341,7 +407,7 @@
       <updated>1536828633197</updated>
       <workItem from="1536828634792" duration="5036000" />
       <workItem from="1536901666184" duration="1307000" />
-      <workItem from="1537248706018" duration="50000" />
+      <workItem from="1537248706018" duration="185000" />
     </task>
     <task id="LOCAL-00001" summary="- init">
       <created>1536899351092</created>
@@ -392,11 +458,25 @@
       <option name="project" value="LOCAL" />
       <updated>1536910374562</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="modify readme file">
+      <created>1537248777374</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1537248777374</updated>
+    </task>
+    <task id="LOCAL-00009" summary="N/A">
+      <created>1537248848085</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1537248848085</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6393000" />
+    <option name="totallyTimeSpent" value="6528000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
@@ -407,7 +487,7 @@
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
       <window_info id="Learn" order="4" show_stripe_button="false" weight="0.32942432" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" sideWeight="0.48636365" visible="true" weight="0.20575693" />
+      <window_info content_ui="combo" id="Project" order="5" sideWeight="0.48636365" visible="true" weight="0.20575693" />
       <window_info id="Image Layers" order="6" />
       <window_info content_ui="combo" id="Hierarchy" order="7" weight="0.22068231" />
       <window_info anchor="bottom" id="Database Changes" order="0" show_stripe_button="false" />
@@ -416,12 +496,12 @@
       <window_info anchor="bottom" id="Java Enterprise" order="3" weight="0.32900432" />
       <window_info anchor="bottom" id="Build" order="4" sideWeight="0.4914712" weight="0.34159482" />
       <window_info anchor="bottom" id="Spring" order="5" weight="0.46320346" />
-      <window_info anchor="bottom" id="Event Log" order="6" sideWeight="0.33901918" side_tool="true" weight="0.38685346" />
+      <window_info anchor="bottom" id="Event Log" order="6" sideWeight="0.33955225" side_tool="true" weight="0.24892241" />
       <window_info anchor="bottom" id="Application Servers" order="7" weight="0.24350649" />
       <window_info anchor="bottom" x="1931" y="94" width="1795" height="979" id="Debug" order="8" type="WINDOWED" weight="0.5039909" />
       <window_info active="true" anchor="bottom" x="1932" y="182" width="1577" height="890" id="Run" order="9" sideWeight="0.69288605" visible="true" weight="0.35237068" />
       <window_info anchor="bottom" id="Find" order="10" weight="0.40367964" />
-      <window_info anchor="bottom" x="22" y="346" width="1876" height="358" id="Version Control" order="11" sideWeight="0.6609808" visible="true" weight="0.38793105" />
+      <window_info active="true" anchor="bottom" x="22" y="346" width="1876" height="358" id="Version Control" order="11" sideWeight="0.6604478" visible="true" weight="0.24892241" />
       <window_info anchor="bottom" id="Inspection Results" order="12" sideWeight="0.4978678" weight="0.5093716" />
       <window_info active="true" anchor="bottom" id="SVN Properties" order="13" visible="true" weight="0.3296582" />
       <window_info anchor="bottom" id="TODO" order="14" sideWeight="0.49253732" weight="0.2759009" />
@@ -430,7 +510,7 @@
       <window_info anchor="bottom" id="Inspection" order="17" weight="0.4" />
       <window_info anchor="bottom" id="Database Console" order="18" weight="0.5203969" />
       <window_info anchor="bottom" id="Terminal" order="19" sideWeight="0.49573562" weight="0.5497835" />
-      <window_info anchor="right" id="Structure" order="0" sideWeight="0.521645" side_tool="true" weight="0.17963752" />
+      <window_info anchor="right" id="Structure" order="0" sideWeight="0.521645" visible="true" weight="0.17963752" />
       <window_info anchor="right" id="Ant Build" order="1" sideWeight="0.48331538" weight="0.24985541" />
       <window_info anchor="right" id="Maven Projects" order="2" sideWeight="0.478355" weight="0.24626866" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
@@ -482,17 +562,11 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="- init" />
     <MESSAGE value="add gitignore file" />
+    <MESSAGE value="modify readme file" />
     <MESSAGE value="N/A" />
     <option name="LAST_COMMIT_MESSAGE" value="N/A" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/kywpcm/main/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -500,6 +574,13 @@
             <caret column="20" selection-start-column="20" selection-end-column="20" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/kywpcm/main/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="52">
+          <caret line="2" column="19" lean-forward="true" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
         </state>
       </provider>
     </entry>
