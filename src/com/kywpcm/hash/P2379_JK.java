@@ -5,6 +5,9 @@ import java.util.Collections;
 import java.util.List;
 import java.util.Scanner;
 
+/**
+ * <a href="https://www.acmicpc.net/problem/2379">https://www.acmicpc.net/problem/2379</a>
+ */
 public class P2379_JK {
 
 

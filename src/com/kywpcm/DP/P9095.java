@@ -4,6 +4,9 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
+/**
+ * <a href="https://www.acmicpc.net/problem/9095">https://www.acmicpc.net/problem/9095</a>
+ */
 public class P9095 {
 
     private static int[] dp = new int[11];

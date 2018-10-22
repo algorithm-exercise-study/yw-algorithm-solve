@@ -3,7 +3,7 @@ package com.kywpcm.recursion;
 import org.junit.Test;
 
 /**
- * <a href="https://www.acmicpc.net/problem/1914">https://www.acmicpc.net/problem/10872</a>
+ * <a href="https://www.acmicpc.net/problem/P10872">https://www.acmicpc.net/problem/10872</a>
  */
 public class P10872 {
 
