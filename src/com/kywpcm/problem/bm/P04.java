@@ -22,25 +22,44 @@ public class P04 {
             e.printStackTrace();
         }
 
-        List<String> reList = new ArrayList<>();
-
         int tabSize = Integer.parseInt(list.get(0));
         for (int i = 1; i < list.size(); i++) {
             String code = list.get(i);
-            // test
-//            System.out.println(code);
 
-            reList.add(replaceTabToSpace(tabSize, code));
+            String replacedCode = replaceTabToSpace(tabSize, code);
+            System.out.println(replacedCode);
         }
     }
 
     public static String replaceTabToSpace(int tabSize, String code) {
 
-        String re = code.replaceAll("^\\s*\\t", "    ");
-        // test
-        System.out.println(re);
+        StringBuilder replaceCode = new StringBuilder();
 
-        return re;
+        int spaceCnt = 0;
+        for (int i = 0; i < code.length(); i++) {
+            char c = code.charAt(i);
+            if (c == 32) { // space
+                spaceCnt++;
+                replaceCode.append(c);
+            } else if (c == 9) { // tab
+                int diff = tabSize - spaceCnt;
+                if (diff > 0) {
+                    StringBuilder space = new StringBuilder();
+                    for (int j = 1; j <= diff; j++)
+                        space.append(" ");
+
+                    replaceCode.append(space);
+
+                    spaceCnt = 0;
+                } else {
+                    // nothing...
+                }
+            } else
+                replaceCode.append(c);
+
+        }
+
+        return replaceCode.toString();
     }
 
 }

@@ -76,12 +76,52 @@ public class P02 {
                 });
     }
 
-    public static boolean isTargetDateRange(String dateStr) {
+    private static boolean isTargetDateRange(String dateStr) {
         String[] split = dateStr.split("-");
         int day = Integer.parseInt(split[2]);
         return 2 <= day && day <= 9;
     }
 
+    public static class SaleProduct implements Comparable<SaleProduct> {
+        private String prodId;
+        private int saleCount = 0;
+        private Map<String, Integer> regionCountMap = new LinkedHashMap<>();
+
+        public String getProdId() {
+            return prodId;
+        }
+
+        public void setProdId(String prodId) {
+            this.prodId = prodId;
+        }
+
+        public int getSaleCount() {
+            return saleCount;
+        }
+
+        public void setSaleCount(int saleCount) {
+            this.saleCount = saleCount;
+        }
+
+        public Map<String, Integer> getRegionCountMap() {
+            return regionCountMap;
+        }
+
+        public void setRegionCountMap(Map<String, Integer> regionCountMap) {
+            this.regionCountMap = regionCountMap;
+        }
+
+        @Override
+        public int compareTo(SaleProduct o) {
+            if (this.saleCount > o.getSaleCount()) {
+                return -1;
+            } else if (this.saleCount == o.getSaleCount()) {
+                return prodId.compareTo(o.getProdId());
+            } else {
+                return 1;
+            }
+        }
+    }
 
     @Test
     public void isTargetDateRangeTest() {
@@ -101,7 +141,6 @@ public class P02 {
         Assert.assertFalse(isTargetDateRange(dateStr_fail_1));
         Assert.assertFalse(isTargetDateRange(dateStr_fail_2));
     }
-
 
     @Test
     public void test1() {
@@ -159,48 +198,6 @@ public class P02 {
 
         String[] lines = t1.split("\n");
         solve(Arrays.asList(lines));
-    }
-
-
-    public static class SaleProduct implements Comparable<SaleProduct> {
-        private String prodId;
-        private int saleCount = 0;
-        private Map<String, Integer> regionCountMap = new LinkedHashMap<>();
-
-        public String getProdId() {
-            return prodId;
-        }
-
-        public void setProdId(String prodId) {
-            this.prodId = prodId;
-        }
-
-        public int getSaleCount() {
-            return saleCount;
-        }
-
-        public void setSaleCount(int saleCount) {
-            this.saleCount = saleCount;
-        }
-
-        public Map<String, Integer> getRegionCountMap() {
-            return regionCountMap;
-        }
-
-        public void setRegionCountMap(Map<String, Integer> regionCountMap) {
-            this.regionCountMap = regionCountMap;
-        }
-
-        @Override
-        public int compareTo(SaleProduct o) {
-            if (this.saleCount > o.getSaleCount()) {
-                return -1;
-            } else if (this.saleCount == o.getSaleCount()) {
-                return prodId.compareTo(o.getProdId());
-            } else {
-                return 1;
-            }
-        }
     }
 
 }
