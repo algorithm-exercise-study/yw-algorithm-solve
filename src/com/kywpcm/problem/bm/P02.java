@@ -13,7 +13,7 @@ import org.junit.Test;
 public class P02 {
 
   public static void main(String[] args) {
-    //		 TODO : system.in input
+    // TODO : system.in input
   }
 
   public static void solve(List<String> inputLines) {
