@@ -5,61 +5,95 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.ArrayList;
 import java.util.List;
+import org.junit.Test;
 
 public class P04 {
 
-    public static void main(String[] args) {
-        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-        String input;
-        List<String> list = new ArrayList<>();
-        try {
-            while (true) {
-                input = br.readLine();
-                if (input.equals("END")) break;
-                list.add(input);
-            }
-        } catch (IOException e) {
-            e.printStackTrace();
+  public static void main(String[] args) {
+    BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+    String input;
+    List<String> list = new ArrayList<>();
+    try {
+      while (true) {
+        input = br.readLine();
+        if (input.equals("END")) {
+          break;
         }
-
-        int tabSize = Integer.parseInt(list.get(0));
-        for (int i = 1; i < list.size(); i++) {
-            String code = list.get(i);
-
-            String replacedCode = replaceTabToSpace(tabSize, code);
-            System.out.println(replacedCode);
-        }
+        list.add(input);
+      }
+    } catch (IOException e) {
+      e.printStackTrace();
     }
 
-    public static String replaceTabToSpace(int tabSize, String code) {
+    int tabSize = Integer.parseInt(list.get(0));
+    list.remove(0);
 
-        StringBuilder replaceCode = new StringBuilder();
+    List<String> replacedCode = replaceTabToSpace(tabSize, list);
 
-        int spaceCnt = 0;
-        for (int i = 0; i < code.length(); i++) {
-            char c = code.charAt(i);
-            if (c == 32) { // space
-                spaceCnt++;
-                replaceCode.append(c);
-            } else if (c == 9) { // tab
-                int diff = tabSize - spaceCnt;
-                if (diff > 0) {
-                    StringBuilder space = new StringBuilder();
-                    for (int j = 1; j <= diff; j++)
-                        space.append(" ");
+    for (String rCodeLine : replacedCode) {
+      System.out.println(rCodeLine);
+    }
+  }
 
-                    replaceCode.append(space);
+  public static List<String> replaceTabToSpace(int tabSize, List<String> code) {
 
-                    spaceCnt = 0;
-                } else {
-                    // nothing...
-                }
-            } else
-                replaceCode.append(c);
+    StringBuilder sb = new StringBuilder();
+    List<String> replaceCode = new ArrayList<>();
+    int spaceCnt = 0;
 
+    for (String codeLine : code) {
+      for (int i = 0; i < codeLine.length(); i++) {
+        char c = codeLine.charAt(i);
+        if (c == 32) { // space
+          spaceCnt++;
+          sb.append(c);
+        } else if (c == 9) { // tab
+          int diff = tabSize - (spaceCnt % tabSize);
+          // tab 만큼 space 생성
+          StringBuilder space = new StringBuilder();
+          for (int j = 1; j <= diff; j++) {
+            space.append(" ");
+          }
+
+          sb.append(space);
+          spaceCnt = 0;
+        } else { // other character
+          // 나머지 전부 append 후 탈출
+          sb.append(codeLine.substring(i));
+          break;
         }
+      }
 
-        return replaceCode.toString();
+      // 오른쪽 trim 후, list add
+      replaceCode.add(sb.toString().replaceAll("(\\s|\t)*$", ""));
+      sb.setLength(0); // StringBuilder 초기화
     }
 
+    return replaceCode;
+  }
+
+  @Test
+  public void replaceTabToSpaceTest() {
+    List<String> code = new ArrayList<>();
+    code.add("2");
+    code.add("\tprintf");
+    code.add(" \tprintf");
+    code.add("  \tprintf");
+    code.add("   \tprintf");
+    code.add("    \tprintf");
+    code.add("\tprintf printf\t\tprintf");
+    code.add("\tprintf printf\t\tprintf ");
+    code.add("\tprintf printf\t\tprintf\t");
+    code.add("\tprintf printf\t\tprintf \t");
+    code.add("\tprintf printf\t\tprintf         \t\t\t\t\t");
+
+    int tabSize = Integer.parseInt(code.get(0));
+    code.remove(0);
+
+    List<String> replacedCode = replaceTabToSpace(tabSize, code);
+
+    for (String rCodeLine : replacedCode) {
+      System.out.println(rCodeLine);
+    }
+  }
 }
