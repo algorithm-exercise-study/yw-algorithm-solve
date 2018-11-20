@@ -8,11 +8,6 @@ public class P01 {
 
   public String sol(Integer[] numbers) {
 
-//    String[] numbers = Arrays.c
-//    for (Integer num : numbers) {
-//
-//    }
-
     return "";
   }
 }
