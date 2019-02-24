@@ -42,10 +42,8 @@ public class P5885 {
             cnt += a;
             changeM = changeM % 5;
         }
-        if (changeM / 1 > 0) {
-            int a = changeM / 1;
-            cnt += a;
-            changeM = changeM % 1;
+        if (changeM > 0) {
+            cnt += changeM;
         }
 
         // test
